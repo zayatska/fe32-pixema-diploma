@@ -1,0 +1,126 @@
+.container {
+   display: flex;
+   padding-right: 300px;
+}
+
+.settings {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+
+.settingsBlock {
+   width: 100%;
+}
+
+.title {
+   font-family: 'Exo 2';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 36px;
+   color: #FFFFFF;
+   margin-bottom: 16px;
+   text-align: start;
+}
+
+.lightTitle {
+   color: #242426;
+}
+
+.inner {
+   max-width: 1186px;
+   background: #242426;
+   border-radius: 10px;
+   display: flex;
+   gap: 40px;
+   padding: 40px;
+   justify-content: space-between;
+}
+
+.lightInner {
+   background: rgb(240, 237, 237);
+   background: #c7c7c774;
+}
+
+.item {
+   width: 50%;
+   text-align: start;
+   color: #FFFFFF;
+   font-family: 'Exo 2';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+
+.lightItem {
+   color: #242426;
+}
+
+.inputInfo {
+   background: #323537;
+   border-radius: 10px;
+   height: 56px;
+   padding: 16px 20px;
+   box-sizing: border-box;
+}
+
+.lightInputInfo {
+   background: #FFFFFF;
+   border: 2px solid #AFB2B6;
+}
+
+.subtitle {
+   font-family: 'Exo 2';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 24px;
+   color: #FFFFFF;
+   margin-bottom: 8px;
+}
+
+.lightSubtitle {
+   color: #242426;
+}
+
+.box {
+   background: #323537;
+border-radius: 10px;
+padding: 16px 20px;
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.lightBox {
+   background: #FFFFFF;
+   color: #323537;
+}
+
+.input {
+   margin-bottom: 40px;
+}
+
+.spanThema {
+   font-family: 'Exo 2';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #AFB2B6;
+}
+
+.buttonsBlock {
+   display: flex;
+   justify-content: end;
+   gap: 40px;
+}

@@ -1,0 +1,51 @@
+.switch {
+  border-radius: 10px;
+  background-color: white;
+  width: 32px;
+  height: 20px;
+  position: relative;
+  transition: all 0.5s;
+  background-color:#7B61FF; 
+}
+
+.switch:hover {
+    transition: all 0.5s;
+    background-color:#917cff;
+  }
+
+.circle {
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  position: absolute;
+  left: 14px;
+  top: calc(50% - 16px / 2);
+  border-radius: 50%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.offSwitch {
+  left: 2px;
+  transition: all 0.5s;
+}
+
+.switchOff {
+  background-color: #80858b;
+  transition: all 0.5s;
+}
+
+.switchOff:hover {
+    background-color: #afb2b6;
+    transition: all 0.5s;
+  }
+
+.darkSwitch {
+    left: 2px;
+    transition: all 0.5s;
+}
+
+.lightSwitch {
+    background-color: #80858b;
+    transition: all 0.5s;
+}

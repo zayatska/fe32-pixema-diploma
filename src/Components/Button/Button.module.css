@@ -1,0 +1,38 @@
+.button {
+   padding: 16px 32px;
+   border-radius: 10px;
+   font-family: "Exo 2";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 24px;
+   border: none;
+   box-sizing: border-box;
+}
+
+.button:hover {
+   cursor: pointer;
+}
+
+.primary {
+   background-color: #7B61FF;
+   color: #ffffff;
+}
+.primary:hover {
+   background-color: #917CFF;
+}
+
+.secondary {
+   background-color: #323537;
+   color: #ffffff;
+}
+.secondary:hover {
+   color: #AFB2B6;
+}
+
+.disabled {
+   background-color: #80858B;
+   color: #AFB2B6;
+   pointer-events: none;
+   
+}

@@ -1,0 +1,17 @@
+.inner {
+   padding: 40px 64px 56px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 136px;
+}
+
+.innerBlock{
+   display: flex;
+   gap: 41px;
+   width: 100%;
+}
+
+.nameBlock {
+   width: 181px;
+}

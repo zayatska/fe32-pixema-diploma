@@ -1,0 +1,49 @@
+.container {
+   background: transparent;
+   font-family: 'Exo 2';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 24px;
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   position: relative;
+}
+
+.nameBlock {
+   width: 100px;
+}
+
+.lightContainer {
+   color: #242426;
+}
+
+.letter {
+   padding: 16px 20px;
+   background: #7B61FF;
+   border-radius: 10px;
+   font-family: 'Exo 2';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 24px;
+}
+
+.lightLetter {
+   color: #fff;
+}
+
+.arrowButton {
+   background-color: transparent;
+   transition: all 0.5s;
+   width: 15px;
+   padding: 0;
+}
+
+.arrowButton:hover {
+   background-color: transparent;
+   transition: all 0.5s;
+}

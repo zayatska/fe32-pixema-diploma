@@ -1,0 +1,33 @@
+.ButtonGroup {
+   display: flex;
+   flex-direction: row;
+   gap: 1px;
+   max-width: 266px;
+}
+
+.button {
+   background: #323537;
+   width: 50%;
+   padding: 20px 60px;
+}
+
+.button:hover {
+   background-color: rgb(63, 64, 65);
+}
+
+.button:hover {
+   background-color: rgb(63, 64, 65);
+}
+
+.rightButton {
+   border-radius: 10px 0px 0px 10px;
+}
+
+.leftButton {
+   border-radius: 0px 10px 10px 0px;
+}
+
+.disabled {
+   background-color: #80858B;
+   pointer-events: none;
+}

@@ -1,0 +1,73 @@
+.container {
+   max-width: 266px;
+   max-height: 433px;
+   position: relative;
+   transition: all 0.5s;
+   color: #FFFFFF;
+}
+
+.container:hover {
+   transform: scale(1.05);
+   transition: all 0.5s;
+   cursor: pointer;
+   color: #7B61FF;
+}
+
+.rating {
+   position: absolute;
+   left: 20px;
+   top: 20px;
+   color: white;
+   font-weight: 600;
+   padding: 2px 8px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 6px;
+   width: 37px;
+   height: 28px;
+}
+
+.ratingRed {
+   background-color: #F45D2D;
+}
+
+.ratingYellow {
+   background-color:  #F3A608;
+}
+
+.ratingGreen {
+   background-color: #00A340;
+}
+
+.ratingBlue {
+   background-color: #7B61FF;
+}
+
+.card {
+   width: 266px;
+   height: 357px;
+   border-radius: 20px;
+}
+
+.title {
+   font-family: 'Exo 2';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+}
+
+.lightContainer {
+   color: #242426;
+}
+
+.genres {
+   font-family: 'Exo 2';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   color: #AFB2B6;
+}
+

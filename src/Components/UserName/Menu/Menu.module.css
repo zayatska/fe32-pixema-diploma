@@ -1,0 +1,29 @@
+.container{
+   position: absolute;
+   top: 80px;
+   width: 100%;
+   z-index: 1;
+   opacity: 0.9;
+}
+
+.buttonsContainer {
+   display: flex;
+   flex-direction: column;
+}
+
+.editProfileButton {
+   border-radius: 10px 10px 0px 0px;
+}
+
+.editProfileButton:first-child {
+   border-bottom: 1px solid #AFB2B6;
+}
+
+.logOutButton {
+   color: #7B61FF;
+   border-radius: 0px 0px 10px 10px;
+}
+
+.logOutButton:hover {
+   color: #917CFF;
+}

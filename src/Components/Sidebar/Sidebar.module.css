@@ -1,0 +1,28 @@
+.container {
+   padding-left: 65px;
+   padding-right: 184px;
+}
+
+.categories {
+   display: flex;
+   margin-bottom: 40px;
+   text-decoration: none;
+   align-items: center;
+   font-size: 18px;
+   line-height: 24px;
+   color: #80858B;
+   gap: 25px;
+}
+
+.categories:hover {
+   color: #917CFF;
+}
+
+.categories:active {
+   color: #7B61FF;
+}
+
+.disabled {
+   opacity: 40%;
+   pointer-events: none;
+ }
